@@ -5,12 +5,20 @@ using System.Threading.Tasks;
 
 namespace Professor
 {
-    public class Professor(string nome, string horario, string periodo, string sala)
+    public class Professor
     {
-        private string nome = nome;
-        private string horario = horario;
-        private string periodo = periodo;
-        private string sala = sala;
+        private string nome;
+        private string horario;
+        private string periodo;
+        private string sala;
+
+        public Professor(string nome, string horario, string periodo, string sala)
+        {
+            this.nome = nome;
+            this.horario = horario;
+            this.periodo = periodo;
+            this.sala = sala;
+        }
 
         public string getnome() {
             return nome;

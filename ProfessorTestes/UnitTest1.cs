@@ -1,4 +1,5 @@
 using Professor;
+using Xunit;
 
 namespace ProfessorTestes
 {
@@ -7,10 +8,9 @@ namespace ProfessorTestes
         private IProfessor _service;
         private BuscaProfessor _buscaProfessor;
 
-        [SetUp]
-        public void Setup()
+        public UnitTest1()
         {
-            _service = new Professor.Professor();
+            _service = new TestesProfessor();
             _buscaProfessor = new BuscaProfessor(_service);
         }
 
