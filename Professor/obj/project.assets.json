@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\Professor\\Professor.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\C214\\Professor\\Professor.csproj",
       "projectName": "Professor",
-      "projectPath": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\Professor\\Professor.csproj",
+      "projectPath": "C:\\Users\\victo\\Documents\\C214\\Professor\\Professor.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\Professor\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\C214\\Professor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

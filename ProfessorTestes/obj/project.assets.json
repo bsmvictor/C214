@@ -1708,6 +1708,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Professor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Professor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Professor.dll": {}
+        }
       }
     }
   },
@@ -5497,11 +5507,17 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Professor/1.0.0": {
+      "type": "project",
+      "path": "../Professor/Professor.csproj",
+      "msbuildProject": "../Professor/Professor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Professor >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -5514,11 +5530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\ProfessorTestes\\ProfessorTestes.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\C214\\ProfessorTestes\\ProfessorTestes.csproj",
       "projectName": "ProfessorTestes",
-      "projectPath": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\ProfessorTestes\\ProfessorTestes.csproj",
+      "projectPath": "C:\\Users\\victo\\Documents\\C214\\ProfessorTestes\\ProfessorTestes.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\ProfessorTestes\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\C214\\ProfessorTestes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5539,7 +5555,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\victo\\Documents\\C214\\Professor\\Professor.csproj": {
+              "projectPath": "C:\\Users\\victo\\Documents\\C214\\Professor\\Professor.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

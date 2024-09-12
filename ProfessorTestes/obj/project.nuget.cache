@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zmzia8XILL4=",
+  "dgSpecHash": "m8hscCWVk58=",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\Documents\\Chris foda\\AtivPratica\\ProfessorTestes\\ProfessorTestes.csproj",
+  "projectFilePath": "C:\\Users\\victo\\Documents\\C214\\ProfessorTestes\\ProfessorTestes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
