@@ -1,20 +1,24 @@
 using Professor;
 
-namespace ProfessorTestes;
-
-public class UnitTest1
+namespace ProfessorTestes
 {
-     [SetUp]
-    public void Setup()
+    public class UnitTest1
     {
-        _service = new ProfessorService();
-    }
-    IProfessor service;
-    BuscaProfessor buscaProfessor;
-    [Fact]
-    public void Test1()
-    {
-        Professor professor1 = buscaProfessor.buscaProfessor("Marcelo");
-        Assert.DoesNotMatch(professor1);
+        private IProfessor _service;
+        private BuscaProfessor _buscaProfessor;
+
+        [SetUp]
+        public void Setup()
+        {
+            _service = new Professor.Professor();
+            _buscaProfessor = new BuscaProfessor(_service);
+        }
+
+        [Fact]
+        public void Test1()
+        {
+            Professor.Professor professor1 = _buscaProfessor.buscaProfessor("Marcelo");
+            Assert.NotNull(professor1);
+        }
     }
 }

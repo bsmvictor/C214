@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Teste\\C214\\Professor\\Professor.csproj": {}
+    "/Users/victorboaventura/Documents/GitHub/C214/Professor/Professor.csproj": {}
   },
   "projects": {
-    "D:\\Teste\\C214\\Professor\\Professor.csproj": {
+    "/Users/victorboaventura/Documents/GitHub/C214/Professor/Professor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Teste\\C214\\Professor\\Professor.csproj",
+        "projectUniqueName": "/Users/victorboaventura/Documents/GitHub/C214/Professor/Professor.csproj",
         "projectName": "Professor",
-        "projectPath": "D:\\Teste\\C214\\Professor\\Professor.csproj",
-        "packagesPath": "C:\\Users\\conra\\.nuget\\packages\\",
-        "outputPath": "D:\\Teste\\C214\\Professor\\obj\\",
+        "projectPath": "/Users/victorboaventura/Documents/GitHub/C214/Professor/Professor.csproj",
+        "packagesPath": "/Users/victorboaventura/.nuget/packages/",
+        "outputPath": "/Users/victorboaventura/Documents/GitHub/C214/Professor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\conra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/victorboaventura/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
