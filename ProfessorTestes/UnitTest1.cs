@@ -174,6 +174,87 @@ namespace ProfessorTestes
         String predio = professor.GetPredio(int.Parse(professor.getSala()));
         Assert.NotEqual("3", predio);
     }
+    
+    [Fact]
+    public void testeBuscaProfessor1() {
+
+        //Fiz a busca
+        Professor.Professor professor1 = _buscaProfessor.buscaProfessor("Marcelo");
+        Assert.NotNull(professor1);
+    }
+
+    [Fact]
+     public void testeBuscaProfessor2() {
+
+        //Fiz a busca
+        Professor.Professor professor1 = _buscaProfessor.buscaProfessor("Chris");
+        Assert.NotNull(professor1);
+    }
+
+    [Fact]
+     public void testeBuscaProfessor3() {
+
+        //Fiz a busca
+        Professor.Professor professor1 = _buscaProfessor.buscaProfessor("Renzo");
+        Assert.NotNull(professor1);
+    }
+
+    [Fact]
+    public void testeBuscaProfessor4() {
+
+        //Fiz a busca
+        Professor.Professor professor4 = _buscaProfessor.buscaProfessor("Yvo");
+        Assert.NotNull(professor4);
+    }
+
+    [Fact]
+    public void testeBuscaProfessor5() {
+
+        //Fiz a busca
+        Professor.Professor professor5 = _buscaProfessor.buscaProfessor("Soned");
+        Assert.NotNull(professor5);
+    }
+
+    [Fact]
+    public void testeSala2NoPredio1() {
+
+        Professor.Professor professor = _buscaProfessor.buscaProfessor("Marcelo");
+        String predio = professor.GetPredio(int.Parse(professor.getSala()));
+        Assert.Equal("1", predio);
+    }
+
+    [Fact]
+    public void testeSala9NoPredio2() {
+
+        Professor.Professor professor = _buscaProfessor.buscaProfessor("Chris");
+        String predio = professor.GetPredio(int.Parse(professor.getSala()));
+        Assert.Equal("2", predio);
+    }
+
+    [Fact]
+    public void testeSala7NoPredio2() {
+
+        Professor.Professor professor = _buscaProfessor.buscaProfessor("Renzo");
+        String predio = professor.GetPredio(int.Parse(professor.getSala()));
+        Assert.Equal("2", predio);
+    }
+
+    [Fact]
+    public void testeSala14NoPredio3() {
+
+        Professor.Professor professor = _buscaProfessor.buscaProfessor("Yvo");
+        String predio = professor.GetPredio(int.Parse(professor.getSala()));
+        Assert.Equal("3", predio);
+    }
+
+    [Fact]
+    public void testeSala28NoPredio6() {
+
+        Professor.Professor professor = _buscaProfessor.buscaProfessor("Soned");
+        String predio = professor.GetPredio(int.Parse(professor.getSala()));
+        Assert.Equal("6", predio);
+    }
+    
 
     }
 }
