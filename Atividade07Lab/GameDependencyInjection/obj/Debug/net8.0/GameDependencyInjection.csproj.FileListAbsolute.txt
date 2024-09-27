@@ -1,0 +1,15 @@
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\bin\Debug\net8.0\GameDependencyInjection.exe
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\bin\Debug\net8.0\GameDependencyInjection.deps.json
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\bin\Debug\net8.0\GameDependencyInjection.runtimeconfig.json
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\bin\Debug\net8.0\GameDependencyInjection.dll
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\bin\Debug\net8.0\GameDependencyInjection.pdb
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.AssemblyInfo.cs
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.sourcelink.json
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.dll
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\refint\GameDependencyInjection.dll
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.pdb
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\GameDependencyInjection.genruntimeconfig.cache
+C:\Users\victo\Documents\C214\Atividade07Lab\GameDependencyInjection\obj\Debug\net8.0\ref\GameDependencyInjection.dll
